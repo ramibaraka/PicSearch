@@ -36,7 +36,7 @@ class DetailVC: UIViewController, UIScrollViewDelegate{
         // Sets loading indicator for while image is downloading
         self.imageView.kf.indicatorType = .activity
         
-        // Uses kingfisher to download and cache the image to display
+        // Uses kingfisher to download and cache the image and sets it to the imageview
         imageView.kf.setImage(with: url, options: [.transition(.fade(0.2))])
     }
 

@@ -44,7 +44,7 @@ class PicService {
                             let imgURL = pic.1["url_q"].stringValue
                             var bigImgURL = pic.1["url_z"].stringValue
                             
-                            // If there isnt a large image available this it sets it to the original size
+                            // If there isnt a large image available it sets it to the original size
                             if (bigImgURL == ""){
                                 bigImgURL = pic.1["url_o"].stringValue
                             }
@@ -58,7 +58,7 @@ class PicService {
                     }
                 } else {
                     // Todo: Handle errors
-                    print("There was an network error")
+                    print("There was a network error")
                 }
                 
         }

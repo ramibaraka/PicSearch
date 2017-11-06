@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  MainVC.swift
 //  PicSearch
 //
 //  Created by Rambo on 2017-10-31.
